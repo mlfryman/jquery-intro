@@ -1,5 +1,15 @@
 extends ../shared/template
 block content
+
+  button#blue BLUE
+  button#gold GOLD
+  button#color COLOR
+  input#color-value(type='color')
+  button#ftFadeOut Fade Out Footer
+  button#ftFadeIn Fade In Footer
+  input#fade-number(type='number')
+
+
   h2 Home Page!
   #a A
   #b B
@@ -11,5 +21,11 @@ block content
   .g G
   .h H
   .i I
+
+  footer (c) 2014, Melanie Fryman
+
+block scripts
+    script(src='/js/user/main.js')
+    script(src='/js/user/alpha.js')
 
 
